@@ -8,8 +8,6 @@ pipeline {
         EC2_INSTANCE_IP = '18.220.184.190'
         MYSQL_HOST = 'php-db.cluster-clcmom6m8aky.us-east-2.rds.amazonaws.com'
         MYSQL_PORT = '3306'
-        MYSQL_USER = harish
-        MYSQL_PASSWORD = harish123
         MYSQL_DATABASE = 'bookstore'
         SSH_KEY = credentials('Jenkins')
     }

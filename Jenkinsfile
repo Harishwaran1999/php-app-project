@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-2'
-        AWS_ACCESS_KEY_ID = credentials('AKIAU3WNS472QEJBTJOD')
-        AWS_SECRET_ACCESS_KEY = credentials('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')
+        AWS_ACCESS_KEY_ID = credentials('AKIAU3WNS472VLSSS57A')
+        AWS_SECRET_ACCESS_KEY = credentials('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')
         EC2_INSTANCE_IP = '18.220.184.190'
         MYSQL_HOST = 'php-db.cluster-clcmom6m8aky.us-east-2.rds.amazonaws.com'
         MYSQL_PORT = '3306'
@@ -45,3 +45,13 @@ pipeline {
         }
     }
 }
+
+
+
+
+
+
+CREATE USER 'harish'@'18.220.184.190' IDENTIFIED BY 'harish123';
+
+
+

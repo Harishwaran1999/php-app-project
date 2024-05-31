@@ -51,7 +51,7 @@ pipeline {
 
 
 
-CREATE USER 'harish'@'18.220.184.190' IDENTIFIED BY 'harish123';
+
 
 
 
